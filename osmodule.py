@@ -1,3 +1,5 @@
+#program to list items in a directory using os module
+
 import os
 
 dic_path = "/"
