@@ -16,3 +16,8 @@ for item in contents:
 
     # Method 2 : Simple Method
     # print(item)
+
+    """ os is an external module which has a use that it can list items in a directory.
+      Here our dictionary was the C drive.Using os.path.join we joined the dictionary path with the item name to get the full path of the item. 
+      Then we checked if it was a file or directory using os.path.isfile and os.path.isdir respectively.
+        If it was neither, we printed it as 'Other'. This is a simple way to list items in a directory using Python's os module."""
