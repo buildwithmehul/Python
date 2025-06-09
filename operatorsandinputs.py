@@ -60,3 +60,19 @@ b = int(input("Enter number 2: "))
 print("Number a is: ", a)
 print("Number b is: ", b)
 print("Sum is ", a + b)
+
+
+
+#Example 1 - Modulo Operator  - gives the remainder of the division of two numbers
+
+a = 57
+b = 5
+
+print("Remainder when a is divided by b is", a % b)
+
+
+#Example 2 - To check the type of a input variable
+
+m = input( " Enter anything:")
+t = type(m)
+print("The data type of m is" , t)
