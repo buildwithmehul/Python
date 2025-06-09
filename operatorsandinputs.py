@@ -76,3 +76,33 @@ print("Remainder when a is divided by b is", a % b)
 m = input( " Enter anything:")
 t = type(m)
 print("The data type of m is" , t)
+
+
+#Example 3 - Using comparison Operators to compare two numbers
+
+a = int(input("Enter first number:"))
+
+b = int(input("Enter second number:"))
+
+print (" a is greater than b",a > b)
+
+
+#Example 4 - Finding Average
+
+c = int(input("Enter first number:"))
+
+d = int(input("Enter second number:"))
+
+print("The average of c and d is", int((c+d)/2))
+
+"""So basically the average is given out as float value 
+so we can again convert it using type casting to int() function
+ to get the integer value of the average. Also mind BODMAS rule here."""  
+
+
+#Example 5 -  Finding the square of a number
+
+e = int(input("Enter a number to find its square:"))
+# print ("Square of number e is", a^2) This "^" operator is not used for squaring in Python, it is used for bitwise XOR operation.
+print("Square of number e is", e**2)  # Use "**" operator for exponentiation in Python.
+print("Square of number e is", e*e)
