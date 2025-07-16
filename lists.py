@@ -1,5 +1,5 @@
 #LISTS IN PYTHON
-# Lists are ordered, mutable, and allow duplicate elements. They can contain elements of different data types.
+# Lists are ordered, mutable, and allow duplicate elements. They are a collection of different data types and mutable at the same time.
 # Lists are defined using square brackets []. They can be indexed and sliced like strings.                                                                                                                      
 
 list = ["Apple", "Banana", 34, 1.5, True, None, "Rohan", "Rocky"]
