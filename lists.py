@@ -2,7 +2,7 @@
 # Lists are ordered, mutable, and allow duplicate elements. They are a collection of different data types and mutable at the same time.
 # Lists are defined using square brackets []. They can be indexed and sliced like strings.                                                                                                                      
 
-list = ["Apple", "Banana", 34, 1.5, True, None, "Rohan", "Rocky"]
+list = ["Apple", "Banana", 34, 1.5, True, None,1.5, "Rohan", "Rocky"]
 print(list[5])
 print(list[0]) #indexing starts from 0
 
@@ -20,9 +20,19 @@ print(list[-4:])  # Slicing from the fourth last element to the end of the list
 # Lists Methods
 #Unlike strings where a new string is created when modified, lists are mutable and can be changed "in place".
 
+print(list.count("Apple"))  # Counts the number of occurrences of "Apple" in the list i.e 0
+print(list.count(1.5))  # Prints the count of 1.5
+
+print(list.index("Rohan"))  # Finds the index of the first occurrence of "Rohan" in the list
+print(list.index(34))  # Finds the index of the first occurrence of 34 in
+
 list.append("Rahul")  # Adds an item to the end of the list
 print(list)  
 
+ 
+list.extend(["Amit", "Kaka"])  # Extends the list by appending elements from another iterable (like a list or tuple)
+print(list)  
+       
 list.insert(2, "Rohan")  # Inserts an item at a specific index (2 in this case)  // ".insert()" requires two arguments: the index and the item to insert. Otherwise, it will raise a TypeError.
 print(list)  
 
