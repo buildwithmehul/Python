@@ -1,7 +1,8 @@
 #LISTS IN PYTHON
 # Lists are ordered, mutable, and allow duplicate elements. They are a collection of different data types and mutable at the same time.
-# Lists are defined using square brackets []. They can be indexed and sliced like strings.                                                                                                                      
-
+# Lists are defined using square brackets []. They can be indexed and sliced like strings. 
+# The difference between lists and strings is that lists are mutable, meaning once created, their elements can be changed, added, or removed.
+                                                                                                                     
 list = ["Apple", "Banana", 34, 1.5, True, None,1.5, "Rohan", "Rocky"]
 print(list[5])
 print(list[0]) #indexing starts from 0
