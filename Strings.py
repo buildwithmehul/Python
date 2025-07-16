@@ -21,6 +21,7 @@ print(name[2:])
 print(name[1:7:2])
 # Slicing from index 1 to 6(7 is not included that is upper limit is exclusive) with step of 2 (it will take every second character)
 
+name[3] = "Aish"  # This will raise an error as strings are immutable in Python, meaning you cannot change a character at a specific index directly
 
 """Functions"""
 
