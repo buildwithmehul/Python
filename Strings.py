@@ -1,3 +1,8 @@
+#STRINGS IN PYTHON
+# Strings are ordered, immutable, and allow duplicate elements. They are a collection of characters and immutable at the same time.
+# Strings are defined using single quotes '' or double quotes "". They can be indexed and sliced like lists.
+# The difference between strings and lists is that strings are immutable, meaning once created, their elements cannot be changed, added, or removed.    
+
 name = "Aishwarya"
 
 """Index and Slicing"""
