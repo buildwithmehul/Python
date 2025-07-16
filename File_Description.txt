@@ -2,3 +2,4 @@ demo.py - program to demonstrate the use of pyjokes module using pip
 prob1.py - program to demonstrate text-to-speech conversion using pyttsx3
 osmodule.py - program to list items in a directory using os module
 operatorsandinputs.py - programs on how to use diff operators and how to take input
+Strings.py - contains definitions of Strings and Various Functions like Indexing, Slicing and many more.
